@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'post/genesis' => 'post#genesis', as: :genesis
   post 'post/genesis_post' => 'post#genesis_post', as: :genesis_post
   get 'post/one' => 'post#one', as: :one
+  post 'post/new_comment' => 'post#new_comment', as: :new_comment
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
