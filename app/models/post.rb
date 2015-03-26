@@ -3,4 +3,6 @@ class Post
 
   field :title, type: String
   field :body, type: String
+
+  embeds_many :comments
 end

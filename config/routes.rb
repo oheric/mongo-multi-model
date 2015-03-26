@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root 'home#index'
   get 'post/index' => 'post#index', as: :post
   get 'post/genesis' => 'post#genesis', as: :genesis
+  post 'post/genesis_post' => 'post#genesis_post', as: :genesis_post
+  get 'post/one' => 'post#one', as: :one
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
